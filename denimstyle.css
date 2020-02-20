@@ -1,0 +1,79 @@
+body {
+	margin: 0;	
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.25em;
+	color: gray;
+}
+
+
+ul {
+	background-color: #072141;
+	color: white;
+	list-style-type: none;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 0.5em;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: auto 30em 10em;
+}
+a, a:visited {
+	color: white;
+	text-decoration: none;
+}
+.content {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-column-gap: 3em;
+	margin: 5em 5em 5em 5em;
+}
+
+.houston-logo {
+	width: 12em;
+	background-color: white;
+	padding: 0.75em;
+}
+
+@media screen and (max-width: 1024px) {
+	nav {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+	.content {
+		display: grid;
+		grid-template-columns: auto;
+		padding-right: 1em;
+		padding-left: 1em;
+	}	
+}
+
+
+.hero {
+	padding: 4em;
+	background-color: #1560bd;
+	color: white;
+	text-align: center;
+}
+
+.contributors {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-items: center;
+	padding: 2em;
+	color: white;
+	/* background-color: #072141; */
+	background-color: #3686e9
+}
