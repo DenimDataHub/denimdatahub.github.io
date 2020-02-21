@@ -63,7 +63,7 @@ a, a:visited {
 
 .hero {
 	padding: 4em;
-	background-color: #1560bd;
+	background-image: linear-gradient(to right, #0d3d78, #1560bd, #0d3d78);
 	color: white;
 	text-align: center;
 }
@@ -74,6 +74,5 @@ a, a:visited {
 	justify-items: center;
 	padding: 2em;
 	color: white;
-	/* background-color: #072141; */
 	background-color: #3686e9
 }
