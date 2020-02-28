@@ -10,6 +10,7 @@ h1 {
 h2 {
 	font-size: 1.25em;
 	color: gray;
+	font-family: 'Roboto Slab', serif;
 }
 
 h3 {
@@ -25,8 +26,8 @@ ul {
 
 nav li {
 	display: inline-block;
-	font-size: 1em;
 	padding: 1em;
+	font-weight: 700;
 }
 
 li {
@@ -35,9 +36,13 @@ li {
 
 nav {
 	padding-left: 2em;
-	background-color: #072141;
 	display: grid;
-	grid-template-columns: auto 30em 10em;
+	grid-template-columns: 50% auto 10em;
+	background-color: rgba(0,0,0,0.5);
+}
+
+nav img {
+	max-width: 10em;
 }
 
 a, a:visited {
@@ -68,6 +73,12 @@ a, a:visited {
 	grid-template-columns: 66% auto;	
 }
 
+.denim_tag {
+	position: fixed;
+	left:1em;
+	top:0em;
+}
+
 @media screen and (max-width: 1024px) {
 	nav {
 		display: grid;
@@ -84,8 +95,8 @@ a, a:visited {
 
 
 .hero {
-	padding: 4em;
-	background-image: linear-gradient(to right, #0d3d78, #1560bd, #0d3d78);
+	padding: 0em 0em 4em 0em;
+	background-image: url('./img/Header.png');
 	color: white;
 	text-align: center;
 }
