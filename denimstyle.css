@@ -5,6 +5,10 @@ body {
 
 h1 {
 	font-size: 3em;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 26pt;
+	line-height: 1,25
 }
 
 h2 {
@@ -70,13 +74,26 @@ a, a:visited {
 
 .testimonial {
 	display: grid;
-	grid-template-columns: 66% auto;	
+	grid-template-columns: 50% auto;	
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	background-color: #f9f9f9;	
 }
 
 .denim_tag {
 	position: fixed;
 	left:1em;
 	top:0em;
+}
+
+.denim-illustration {
+	width: 100%;
+}
+
+.denim-illustration-container {
+	padding: 3em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -101,12 +118,19 @@ a, a:visited {
 	text-align: center;
 }
 
+.hero h1 {
+	padding-top: 2em;
+}
+
 .contributors {
-	margin-left: 5em;
-	margin-right: 5em;
+	background-image: url('./img/Header.png');
 	padding-top: 5em;
-	padding-bottom: 5em;
+	padding-bottom: 16em;
 	border-top: 1px solid gray;
+}
+
+.contributors h2 {
+	text-align: center;
 }
 
 .contributor {
@@ -116,7 +140,7 @@ a, a:visited {
 }
 
 .footer {
-	display: grid;
+	display: none;
 	grid-template-columns: 40% auto;
 	background-color: #072141;
 	color: white;
