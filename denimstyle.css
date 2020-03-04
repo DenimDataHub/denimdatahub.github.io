@@ -17,7 +17,7 @@ h2 {
 	font-family: 'Roboto Slab', serif;
 }
 
-.contributors h2{
+.contributors h2 {
 	color: white;
 }
 
@@ -60,7 +60,7 @@ a, a:visited {
 
 .content {
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: auto auto auto;
 	grid-column-gap: 3em;
 	margin: 5em 5em 5em 5em;
 }
